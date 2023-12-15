@@ -10,60 +10,61 @@ The main purpose is to extract insights from Walmart's sales data, shedding ligh
 ## Data Source:
 The dataset used in this project is sourced from the Kaggle Walmart Sales Forecasting Competition. It encompasses sales transactions from three distinct Walmart branches situated in Mandalay, Yangon, and Naypyitaw. In total, the dataset comprises 17 columns and 1000 rows.
 
-| Column | Description | Data Type |
-| invoice_id | Invoice of the sales made | VARCHAR (30) |
-branch|Branch at which sales were made|VARCHAR (5)
-city|The location of the branch|VARCHAR (30)
-customer_type|The type of the customer|VARCHAR (30)
-gender|Gender of the customer making purchase|VARCHAR (10)
-product_line	Product line of the product sold	VARCHAR (100)
-unit_price|The price of each product|DECIMAL (10, 2)
-quantity|The amount of the product sold|INT
-VAT|The amount of tax on the purchase|FLOAT (6, 4)
-total|The total cost of the purchase|DECIMAL (12, 4)
-date|The date on which the purchase was made|DATETIME
-time|The time at which the purchase was made|TIME
-payment_method|The total amount paid|VARCHAR (15)
-cogs|Cost Of Goods sold|DECIMAL (10, 2)
-gross_margin_pct|Gross margin percentage|FLOAT (11, 9)
-gross_income|Gross Income|DECIMAL (12, 4)
-rating|Rating|FLOAT (2, 1)
+| Column                  | Description                             | Data Type      |
+| :---------------------- | :-------------------------------------- | :------------- |
+| invoice_id              | Invoice of the sales made               | VARCHAR(30)    |
+| branch                  | Branch at which sales were made         | VARCHAR(5)     |
+| city                    | The location of the branch              | VARCHAR(30)    |
+| customer_type           | The type of the customer                | VARCHAR(30)    |
+| gender                  | Gender of the customer making purchase  | VARCHAR(10)    |
+| product_line            | Product line of the product solf        | VARCHAR(100)   |
+| unit_price              | The price of each product               | DECIMAL(10, 2) |
+| quantity                | The amount of the product sold          | INT            |
+| VAT                 | The amount of tax on the purchase       | FLOAT(6, 4)    |
+| total                   | The total cost of the purchase          | DECIMAL(12, 4) |
+| date                    | The date on which the purchase was made | DATETIME           |
+| time                    | The time at which the purchase was made | TIME      |
+| payment_method                 | The total amount paid                   | VARCHAR(15)  |
+| cogs                    | Cost Of Goods sold                      | DECIMAL(10, 2) |
+| gross_margin_pct | Gross margin percentage                 | FLOAT(11, 9)   |
+| gross_income            | Gross Income                            | DECIMAL(12, 4) |
+| rating                  | Rating                                  | FLOAT(2, 1)    |
 
 
-##Analysis Overview:
+## Analysis Overview:
 
-###Product Analysis:
+### Product Analysis:
 Examine the data to comprehend various product lines, identify top-performing product lines, and pinpoint areas for improvement within product lines.
 
-###Sales Analysis:
+### Sales Analysis:
 This analysis focuses on understanding the trends in product sales. The outcomes assist in gauging the effectiveness of applied sales strategies and determining necessary modifications to boost sales.
 
-###Customer Analysis:
+### Customer Analysis:
 Uncover diverse customer segments, analyze purchase trends, and assess the profitability of each customer segment through this analysis.
 
-##Methodology Employed:
+## Methodology Employed:
 
-###Data Wrangling:
+### Data Wrangling:
 Initial data inspection to detect and handle NULL or missing values.
 Database creation, table building, and data insertion.
 Implementation of NOT NULL constraints during table creation to eliminate null values.
 
-###Feature Engineering:
+### Feature Engineering:
 Introduction of new columns derived from existing data.
 Inclusion of a "time_of_day" column providing insights into sales during Morning, Afternoon, and Evening, addressing the peak sales time question.
 Addition of a "day_name" column indicating the day of the week for each transaction (Mon, Tue, Wed, Thurs, Fri) to understand branch activity throughout the week.
 Incorporation of a "month_name" column reflecting the month of each transaction (Jan, Feb, Mar) to identify the highest sales and profit months.
 
-###Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 Conducted to address the project's objectives and questions, utilizing the generated features and structured data.
 
-##Key Business Queries:
+## Key Business Queries:
 
-###Generic Question
+### Generic Question
 1.	How many unique cities does the data have?
 2.	In which city is each branch?
 
-###Product
+### Product
 1.	How many unique product lines does the data have?
 2.	What is the most common payment method?
 3.	What is the most selling product line?
@@ -77,13 +78,13 @@ Conducted to address the project's objectives and questions, utilizing the gener
 11.	What is the most common product line by gender?
 12.	What is the average rating of each product line?
 
-###Sales
+### Sales
 1.	Number of sales made in each time of the day per weekday
 2.	Which of the customer types brings the most revenue?
 3.	Which city has the largest tax percent/ VAT (Value Added Tax)?
 4.	Which customer type pays the most in VAT?
 
-###Customer
+### Customer
 1.	How many unique customer types does the data have?
 2.	How many unique payment methods does the data have?
 3.	What is the most common customer type?
