@@ -46,14 +46,14 @@ Uncover diverse customer segments, analyze purchase trends, and assess the profi
 
 ### Data Wrangling:
 #### Initial data inspection to detect and handle NULL or missing values.
-Database creation, table building, and data insertion.
-Implementation of NOT NULL constraints during table creation to eliminate null values.
+#### Database creation, table building, and data insertion.
+#### Implementation of NOT NULL constraints during table creation to eliminate null values.
 
 ### Feature Engineering:
-Introduction of new columns derived from existing data.
-Inclusion of a "time_of_day" column providing insights into sales during Morning, Afternoon, and Evening, addressing the peak sales time question.
-Addition of a "day_name" column indicating the day of the week for each transaction (Mon, Tue, Wed, Thurs, Fri) to understand branch activity throughout the week.
-Incorporation of a "month_name" column reflecting the month of each transaction (Jan, Feb, Mar) to identify the highest sales and profit months.
+#### Introduction of new columns derived from existing data.
+#### Inclusion of a "time_of_day" column providing insights into sales during Morning, Afternoon, and Evening, addressing the peak sales time question.
+#### Addition of a "day_name" column indicating the day of the week for each transaction (Mon, Tue, Wed, Thurs, Fri) to understand branch activity throughout the week.
+#### Incorporation of a "month_name" column reflecting the month of each transaction (Jan, Feb, Mar) to identify the highest sales and profit months.
 
 ### Exploratory Data Analysis (EDA):
 Conducted to address the project's objectives and questions, utilizing the generated features and structured data.
