@@ -45,7 +45,7 @@ Uncover diverse customer segments, analyze purchase trends, and assess the profi
 ## Methodology Employed:
 
 ### Data Wrangling:
-Initial data inspection to detect and handle NULL or missing values.
+#### Initial data inspection to detect and handle NULL or missing values.
 Database creation, table building, and data insertion.
 Implementation of NOT NULL constraints during table creation to eliminate null values.
 
