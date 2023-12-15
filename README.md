@@ -1,17 +1,17 @@
 
 # Walmart Sales Data Analysis Project
 
-##Overview:
+## Overview:
 This project dives into Walmart's sales data, aiming to grasp how different branches and products perform, understand sales trends, and analyze customer behaviour. The goal is to find ways to enhance and optimize sales strategies. The dataset used comes from the Kaggle Walmart Sales Forecasting Competition.
 
-##Project Objectives:
+## Project Objectives:
 The main purpose is to extract insights from Walmart's sales data, shedding light on the factors influencing sales across different branches.
 
-##Data Source:
+## Data Source:
 The dataset used in this project is sourced from the Kaggle Walmart Sales Forecasting Competition. It encompasses sales transactions from three distinct Walmart branches situated in Mandalay, Yangon, and Naypyitaw. In total, the dataset comprises 17 columns and 1000 rows.
 
-|Column|Description|Data Type|
-invoice_id|Invoice of the sales made|VARCHAR (30)
+| Column | Description | Data Type |
+| invoice_id | Invoice of the sales made | VARCHAR (30) |
 branch|Branch at which sales were made|VARCHAR (5)
 city|The location of the branch|VARCHAR (30)
 customer_type|The type of the customer|VARCHAR (30)
