@@ -1,5 +1,6 @@
+```sql
 CREATE DATABASE IF NOT EXISTS WalmartSales;
-
+```
 CREATE TABLE IF NOT EXISTS sales(
     invoice_id VARCHAR(30) NOT NULL PRIMARY KEY,
     branch VARCHAR(5) NOT NULL,
